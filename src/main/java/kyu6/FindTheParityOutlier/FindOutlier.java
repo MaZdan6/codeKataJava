@@ -21,7 +21,7 @@ public class FindOutlier {
             long remainder;
             remainder = number % 2;
 
-            System.out.println("number: " + number + ", remainder: " + remainder);
+            //System.out.println("number: " + number + ", remainder: " + remainder);
 
             if (remainder == 0) {
                 evenCount++;
@@ -39,7 +39,7 @@ public class FindOutlier {
 
 
         }
-        System.out.println("outliner: " + outliner);
+        //System.out.println("outliner: " + outliner);
 
 
         return outliner;
